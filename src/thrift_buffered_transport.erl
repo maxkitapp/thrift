@@ -37,7 +37,7 @@
 -type state() :: #t_buffered{}.
 
 
--spec new(Transport:: thrift_transport:t_transport()) ->
+-spec new(Transport::thrift_transport:t_transport()) ->
   thrift_transport:t_transport().
 
 new(Wrapped) ->
